@@ -1,11 +1,11 @@
 function LetterCapitalize(str) {
-	str = str.split(' ')
+  str = str.split(' ')
 
-	for (var i = 0; i < str.length; i++) {
-		str[i] = str[i].charAt(0).toUpperCase() + str[i].substr(1)
-	}
+  for (var i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].substr(1)
+  }
 
-	return str.join(' ')
+  return str.join(' ')
 }
 
 console.log(LetterCapitalize('hello world'))

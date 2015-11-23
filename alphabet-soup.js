@@ -1,7 +1,7 @@
 function AlphabetSoup(str) {
-	str = str.toLowerCase()
+  str = str.toLowerCase()
 
-	return str.split('').sort().join('')
+  return str.split('').sort().join('')
 }
 
 console.log(AlphabetSoup('coderbyte'))

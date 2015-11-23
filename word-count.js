@@ -1,6 +1,6 @@
 function WordCount(str) {
-	str = str.split(' ')
-	return str.length
+  str = str.split(' ')
+  return str.length
 }
 
 console.log(WordCount('Hello World'))

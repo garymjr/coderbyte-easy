@@ -1,5 +1,5 @@
 function FirstReverse(str) {
-	return str.split('').reverse().join('')
+  return str.split('').reverse().join('')
 }
 
 console.log(FirstReverse('coderbyte'))
