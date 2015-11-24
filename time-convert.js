@@ -1,6 +1,7 @@
 function TimeConvert(num) {
   var m = num % 60
-  var h = (num - m) / 60
+    , h = (num - m) / 60
+
   return h + ':' + m
 }
 

@@ -9,9 +9,7 @@ function GreatSecondLow(arr) {
     for (var i = 0; i < arr.length; i++) {
       if (arr[i] != arr[i+1]) {
         for (var j = arr.length -1; j >= 0; j--) {
-          if (arr[j] != arr[j-1]) {
-            return arr[i+1] + ' ' + arr[j-1]
-          }
+          if (arr[j] != arr[j-1]) return arr[i+1] + ' ' + arr[j-1]
         }
       }
     }

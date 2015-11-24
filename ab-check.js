@@ -3,9 +3,7 @@ function ABCheck(str) {
   for (var i = 0; i < str.length; i++) {
     if (str[i] === 'a') {
       for (var j = 1; j <= 3; j++) {
-        if (str[i+j] === 'b' || str[i-j] === 'b') {
-          return false
-        }
+        if (str[i+j] === 'b' || str[i-j] === 'b') return false
       }
     }
   }

@@ -1,7 +1,8 @@
 function ArithGeo(arr) {
-  var isArith, isGeo
-  var arith = arr[1] - arr[0]
-  var geo = arr[1] / arr[0]
+  var isArith = false
+    , isGeo = false
+    , arith = arr[1] - arr[0]
+    , geo = arr[1] / arr[0]
 
   for (var i = 0; i < arr.length - 1; i++) {
     if (arr[i] + arith === arr[i+1]) {

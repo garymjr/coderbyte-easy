@@ -21,9 +21,7 @@ function CountingMinutes(str) {
 
   totalMin = ((end[0] * 60) + end[1]) - ((start[0] * 60) + start[1])
 
-  if (totalMin < 0) {
-    totalMin = totalMin + 1440
-  }
+  if (totalMin < 0) totalMin = totalMin + 1440
 
   return totalMin
 }

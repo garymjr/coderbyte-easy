@@ -1,6 +1,6 @@
 function LetterChanges(str) {
   var vowels = ['a', 'e', 'i', 'o', 'u']
-  var newStr = []
+    , newStr = []
   str = str.split('')
 
   str.forEach(function(letter) {
@@ -11,7 +11,7 @@ function LetterChanges(str) {
     }
   })
 
-  return newStr.join('').replace(/[aeiou]/g, function (letter) {
+  return newStr.join('').replace(/[aeiou]/g, function(letter) {
     return letter.toUpperCase()
   })
 }

@@ -3,9 +3,7 @@ function LongestWord(sen) {
 
   sen = sen.replace(/[^\w\s]/g, '').split(' ')
   sen.forEach(function(word) {
-    if (word.length > longest.length) {
-      longest = word
-    }
+    if (word.length > longest.length) longest = word
   })
   return longest
 }

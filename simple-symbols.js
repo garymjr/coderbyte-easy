@@ -5,9 +5,7 @@ function SimpleSymbols (str) {
 
   for (var i = 0; i < str.length; i++) {
     if (re.test(str[i])) {
-      if (str[i - 1] != '+' || str[i + 1] != '+') {
-        return false
-      }
+      if (str[i - 1] != '+' || str[i + 1] != '+') return false
     }
   }
 

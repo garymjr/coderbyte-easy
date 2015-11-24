@@ -5,9 +5,7 @@ function LetterCount(str) {
   for (var i = 0; i < str.length; i++) {
     for (var j = 0; j < str[i].length; j++) {
       re = new RegExp(str[i][j], 'g')
-      if (str[i].match(re).length > 1) {
-        return str[i]
-      }
+      if (str[i].match(re).length > 1) return str[i]
     }
   }
   return -1
