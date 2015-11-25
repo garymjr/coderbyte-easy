@@ -1,4 +1,4 @@
-function FirstReverse(str) {
+function FirstReverse (str) {
   return str.split('').reverse().join('')
 }
 

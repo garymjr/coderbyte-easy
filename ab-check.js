@@ -1,4 +1,4 @@
-function ABCheck(str) {
+function ABCheck (str) {
   str = str.split('')
   for (var i = 0; i < str.length; i++) {
     if (str[i] === 'a') {

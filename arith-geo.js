@@ -1,4 +1,4 @@
-function ArithGeo(arr) {
+function ArithGeo (arr) {
   var isArith = false
     , isGeo = false
     , arith = arr[1] - arr[0]

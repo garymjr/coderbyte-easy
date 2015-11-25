@@ -1,9 +1,9 @@
-function MeanMode(arr) {
+function MeanMode (arr) {
   var mean = 0
     , modeCount = []
     , mode = 0
 
-  arr = arr.sort(function(a, b) { return a - b })
+  arr = arr.sort(function (a, b) { return a - b })
 
   for (var i = 0; i < arr.length; i++) mean += arr[i]
 

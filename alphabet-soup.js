@@ -1,4 +1,4 @@
-function AlphabetSoup(str) {
+function AlphabetSoup (str) {
   str = str.toLowerCase()
   return str.split('').sort().join('')
 }

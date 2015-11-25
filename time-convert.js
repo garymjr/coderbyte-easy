@@ -1,4 +1,4 @@
-function TimeConvert(num) {
+function TimeConvert (num) {
   var m = num % 60
     , h = (num - m) / 60
 

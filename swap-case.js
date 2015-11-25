@@ -1,4 +1,4 @@
-function SwapCase(str) {
+function SwapCase (str) {
   str = str.split('')
 
   for (var i = 0; i < str.length; i++) {

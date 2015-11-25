@@ -1,5 +1,5 @@
-function GreatSecondLow(arr) {
-  arr = arr.sort(function(a, b) { return a - b })
+function GreatSecondLow (arr) {
+  arr = arr.sort(function (a, b) { return a - b })
 
   if (arr.length === 2) {
     return arr[0] + ' ' + arr[1]

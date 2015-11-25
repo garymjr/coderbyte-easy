@@ -1,4 +1,4 @@
-function LetterCount(str) {
+function LetterCount (str) {
   var word, re
   str = str.split(' ')
 

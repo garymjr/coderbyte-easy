@@ -1,4 +1,4 @@
-function DashInsert(str) {
+function DashInsert (str) {
   var offset = 0
     , dashes = []
   str = str.split('')

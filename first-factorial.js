@@ -1,4 +1,4 @@
-function FirstFactorial(num) {
+function FirstFactorial (num) {
   var total = 1
 
   for (var i = num; i > 0; i--) {

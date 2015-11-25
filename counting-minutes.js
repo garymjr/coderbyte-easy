@@ -1,11 +1,11 @@
-function CountingMinutes(str) {
+function CountingMinutes (str) {
   var start, end, totalMin
   str = str.split('-')
 
   start = convertTime(str[0])
   end = convertTime(str[1])
 
-  function convertTime(time) {
+  function convertTime (time) {
     time = time.split(':')
     hour = Number(time[0])
     min = Number(time[1].replace(/[A-Za-z]/g, ''))

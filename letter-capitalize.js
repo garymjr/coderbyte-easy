@@ -1,4 +1,4 @@
-function LetterCapitalize(str) {
+function LetterCapitalize (str) {
   str = str.split(' ')
 
   for (var i = 0; i < str.length; i++) {

@@ -1,4 +1,4 @@
-function Palindrome(str) {
+function Palindrome (str) {
   str = str.replace(/\s/g, '')
   var palindrome = str
   return str === palindrome.split('').reverse().join('')
