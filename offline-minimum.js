@@ -9,7 +9,6 @@ function OfflineMinimum (strArr) {
       count++
     }
   }
-
  return nums.slice(0, count).join(',')
 }
 

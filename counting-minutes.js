@@ -7,9 +7,9 @@ function CountingMinutes (str) {
 
   function convertTime (time) {
     time = time.split(':')
-    hour = Number(time[0])
-    min = Number(time[1].replace(/[A-Za-z]/g, ''))
-    ampm = time[1].replace(/[\d]/g, '')
+    var hour = Number(time[0])
+    var min = Number(time[1].replace(/[A-Za-z]/g, ''))
+    var ampm = time[1].replace(/[\d]/g, '')
 
     if (ampm === 'pm' && hour != 12) {
       hour = hour + 12
@@ -18,11 +18,9 @@ function CountingMinutes (str) {
     }
     return [hour, min, ampm]
   }
-
   totalMin = ((end[0] * 60) + end[1]) - ((start[0] * 60) + start[1])
 
   if (totalMin < 0) totalMin = totalMin + 1440
-
   return totalMin
 }
 

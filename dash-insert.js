@@ -12,7 +12,6 @@ function DashInsert (str) {
         dashes[i+offset] = str[i]
       }
   }
-
   return dashes.join('')
 }
 

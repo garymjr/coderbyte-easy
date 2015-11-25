@@ -8,7 +8,6 @@ function SwapCase (str) {
       str[i] = str[i].toUpperCase()
     }
   }
-
   return str.join('')
 }
 

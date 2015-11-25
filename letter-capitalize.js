@@ -4,7 +4,6 @@ function LetterCapitalize (str) {
   for (var i = 0; i < str.length; i++) {
     str[i] = str[i].charAt(0).toUpperCase() + str[i].substr(1)
   }
-
   return str.join(' ')
 }
 

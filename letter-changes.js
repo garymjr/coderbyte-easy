@@ -10,7 +10,6 @@ function LetterChanges (str) {
       newStr.push(letter)
     }
   })
-
   return newStr.join('').replace(/[aeiou]/g, function (letter) {
     return letter.toUpperCase()
   })
